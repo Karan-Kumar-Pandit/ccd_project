@@ -1,0 +1,51 @@
+.home-section h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.home-section p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.home-content {
+    font-size: 30px;
+    font-style: italic;
+    background-color: #a6dcef;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.home-content p {
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+.home-content img {
+    margin-top: 40px;
+    box-shadow: 20px 20px 50px rgb(74, 73, 73);
+}
+
+.home-hand h1 {
+    margin-top: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.home-hand,
+.card {
+    margin-top: 50px;
+}
+
+.home-last {
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px solid aqua;
+    background-color: azure;
+    font-size: 20px;
+}

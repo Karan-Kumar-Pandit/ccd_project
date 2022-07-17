@@ -1,0 +1,66 @@
+.Gallery {
+    background-image: url(/public/assets/images/43.jpg);
+    /* background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'); */
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    position: relative;
+    border-bottom-left-radius: 70px;
+}
+
+.Gallery-content {
+    color: black;
+    position: absolute;
+    display: flex;
+    left: 50px;
+    top: 100px;
+}
+
+.Gallery-second {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .6);
+    transition: all .5s linear;
+}
+
+.gallery-second-h2-style1 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.gallery-second-h2-style2 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.gallery-second-h2-style3 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.box {
+    display: block;
+    float: left;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+}
+
+.main img {
+    margin: 10px;
+    box-shadow: 2px 2px 20px black;
+    padding: 10px;
+}
+
+.main img:hover {
+    transform: scale(1.1);
+    transition: .3s transform;
+}
